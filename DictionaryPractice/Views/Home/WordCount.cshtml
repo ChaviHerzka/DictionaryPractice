@@ -1,0 +1,6 @@
+﻿@model CountsViewModel
+
+ @foreach (var kvp in Model.Counts)
+{
+    <h2>There are @kvp.Value @kvp.Key's</h2>
+}
